@@ -1,0 +1,23 @@
+*::after,
+*::before,
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  all: inherit;
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+  overflow-x: hidden;
+}
+
+  
+
+img{
+   max-width: 100%;
+}

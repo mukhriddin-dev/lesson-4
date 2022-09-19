@@ -1,0 +1,37 @@
+.collection{
+padding-top: 100px; 
+background-color: #fff; 
+
+
+   &__wrapper{
+      height: 525px;
+      background-image: url("../../images/text-bgs.png");
+      background-position:top center;
+      background-repeat: no-repeat;
+      padding-top: 120px;
+      
+
+
+      .card__list{
+         display: flex;
+         justify-content: space-between;
+         list-style-type: none;
+
+         .card{
+            width: 255px;
+            height: 398px;
+            text-align: center;
+            
+
+            &-text{
+               font-family: 'Barlow';
+               font-style: normal;
+               font-weight: 400;
+               font-size: 16px;
+               line-height: 26px;
+               color:$grey;
+            }
+         }
+      }
+   }
+}

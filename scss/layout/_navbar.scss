@@ -1,0 +1,209 @@
+.nav {
+   @include custom-menu(flex, space-between, 100px, 100%, center, #fff);
+
+
+   &__ul {
+      @include custom-menu(flex, space-between, auto, 35%, center, #fff);
+      list-style-type: none;
+      font-family: Barlow;
+      text-transform: uppercase;
+
+      &--list {
+         &-link {
+            text-decoration: none;
+            color:$grey;
+            &:hover{
+               color:#000;
+            }
+         }
+      }
+   }
+
+   .menu{
+      display: none;
+   }
+
+}
+
+//============= responsive ===============//@at-root
+
+
+
+
+@media #{$media-desktop} {
+
+   .nav {
+      @include custom-menu(flex, space-between, 100px, 100%, center, #fff);
+   
+   
+      &__ul {
+         @include custom-menu(flex, space-between, auto, 35%, center, #fff);
+         list-style-type: none;
+         font-family: Barlow;
+         text-transform: uppercase;
+   
+         &--list {
+            &-link {
+               text-decoration: none;
+               color:$grey;
+               &:hover{
+                  color:#000;
+               }
+            }
+         }
+      }
+
+      .menu{
+         display: none;
+      }
+   
+   }
+}
+
+
+
+@media #{$media-lg-tablet} {
+   .nav {
+      @include custom-menu(flex, space-between, 100px, 100%, center, #fff);
+   
+   
+      &__ul {
+         @include custom-menu(flex, space-between, auto, 75%, center, #fff);
+         list-style-type: none;
+         font-family: Barlow;
+         text-transform: uppercase;
+   
+         &--list {
+            &-link {
+               text-decoration: none;
+               color:$grey;
+               &:hover{
+                  color:#000;
+               }
+            }
+         }
+      }
+
+      .menu{
+         display: none;
+      }
+   }   
+}
+
+@media #{$media-tablet} {
+
+   .nav {
+      @include custom-menu(flex, space-between, 100px, 100%, center, #fff);
+   
+   
+      &__ul {
+         @include custom-menu(flex, space-between, auto, 50%, center, #fff);
+         list-style-type: none;
+         font-family: Barlow;
+         text-transform: uppercase;
+   
+         &--list {
+            &-link {
+               text-decoration: none;
+               color:$grey;
+               &:hover{
+                  color:#000;
+               }
+            }
+         }
+      }
+
+      .menu{
+         display: none;
+      }
+   }   
+}
+
+@media #{$media-mobile} {
+   .nav {
+      @include custom-menu(flex, space-between, 100px, 100%, center, #fff);
+   
+   
+      &__ul {
+         @include custom-menu(none, space-between, auto, 35%, center, #fff);
+         list-style-type: none;
+         font-family: Barlow;
+         text-transform: uppercase;
+      
+   
+         &--list {
+            &-link {
+               text-decoration: none;
+               color:$grey;
+               &:hover{
+                  color:#000;
+               }
+            }
+         }
+      }
+
+      .menu{
+         display:block;
+      }
+   }   
+}
+
+@media #{$media-mobile-sm} {
+   .nav {
+      @include custom-menu(flex, space-between, 100px, 100%, center, #fff);
+   
+   
+      &__ul {
+         @include custom-menu(none, space-between, auto, 35%, center, #fff);
+         list-style-type: none;
+         font-family: Barlow;
+         text-transform: uppercase;
+   
+         &--list {
+            &-link {
+               text-decoration: none;
+               color:$grey;
+               &:hover{
+                  color:#000;
+               }
+            }
+         }
+      }
+
+
+      .menu{
+         display:block;
+      }
+   }     
+}
+
+
+@media #{$media-mobile-xs} {
+   .nav {
+      @include custom-menu(flex, space-between, 100px, 100%, center, #fff);
+   
+   
+      &__ul {
+         @include custom-menu(none, space-between, auto, 35%, center, #fff);
+         list-style-type: none;
+         font-family: Barlow;
+         text-transform: uppercase;
+   
+         &--list {
+            &-link {
+               text-decoration: none;
+               color:$grey;
+               &:hover{
+                  color:#000;
+               }
+            }
+         }
+      }
+
+
+      .menu{
+         display:block;
+      }
+   }   
+
+}
